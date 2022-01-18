@@ -27,7 +27,7 @@ title: Web 前端技术发展前沿（偏产品向）
   <!-- <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button> -->
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+  <a href="https://github.com/yu-tou" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -45,9 +45,13 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 在线协作（Online collaboration）
 - Web 3D 技术
 - 浏览器系统能力
-- 应用快速搭建
+- 高性能应用快速开发
 - 移动端
 - 区块链
+
+---
+
+# 一 实时体验
 
 ---
 
@@ -82,7 +86,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - 产品定位和产品功能极简，官方定义：Develop. Preview. Ship.
 - 部署过程极简，连接 Github 账号、导入 Github 项目、Deploy、Preview，最小步骤完成。
-- \* 在 vercel 里部署应用的各种过程都不需要刷新页面，所有状态都会实时生效
+- 在 vercel 里部署应用的各种过程都不需要刷新页面，所有状态都会 <span style="color:#ff0000;">自动推进</span> 和 <span style="color:#ff0000;">实时生效</span>，触发往往只需一个点击
 
 ---
 
@@ -90,298 +94,137 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <br/>
 
- <video src="/1.mp4" controls style="height:70%;border-radius:5px;"/>
+ <video src="/1.mp4" controls style="height:70%;border-radius:5px;" autoplay />
 
 ---
 
-### Keyboard Shortcuts
+# 背后技术
 
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
+<br/>
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
+## Next.js
 
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
+- The React Framework for Production
+- hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more
 
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+## SWR
 
----
+![](/swr.vercel.app_zh-CN.png)
 
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+## Hyper
+
+- https://hyper.is/
+- a beautiful and extensible experience for command-line interface
 
 ---
 
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  role: string;
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id);
-  const newUser = { ...user, ...update };
-  saveUser(id, newUser);
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+# 二 在线协作
 
 ---
 
-# Components
+## 1. figma cursor chat
 
-<div grid="~ cols-2 gap-4">
-<div>
+<br/>
 
-You can use Vue components directly inside your slides.
+<img src="/3.gif" style="height:60%">
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+<br/>
 
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
+[https://github.com/yomorun/react-cursor-chat](https://github.com/yomorun/react-cursor-chat)
 
 ---
 
-## class: px-20
+## 2. figma comments
 
-# Themes
+<br/>
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+<img src="/4.gif" style="height:60%">
 
 ---
 
-## preload: false
+## 3. figma voice
 
-# Animations
+<br/>
 
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div v-motion :initial="{ x: -80 }" :enter="{ x: 0 }">Slidev</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
+<img src="/5.png" style="width:60%">
 
 ---
 
-# LaTeX
+## 3. figma voice
 
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
+<br/>
 
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
+<img src="/5.png" style="width:60%">
 
 ---
 
-# Diagrams
+## 4. FigJam
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+<br/>
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+<img src="/6.png" style="height:60%">
 
 ---
 
-layout: center
-class: text-center
+## 5. Miro
+
+<br/>
+
+cursor chat & live chat & video chat & screen share & comments & collaborative editing
+
+<video src="/7.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+---
+
+# Figma
+
+### 2021 年 6 月融资 2 亿美金，市值 100 亿美金
+
+<br/>
+
+# Miro
+
+### 2022 年 1 月融资 4 亿美金，市值 175 亿美金
+
+<br/>
+
+有意思的是这些专业工具的一大核心初始卖点就是协同。
+
+只是随着疫情格局变化，这种协同一直在被强化、扩展、创新（cursor chat）。
+
+除了核心功能的协同，这些工具反向把 chat、meet、voice 搬到了工具内。
+
+这么大的市值中，在线办公、在线会议的价值占比不会低，而不是单纯的设计工具或者白板工具。
+
+---
+
+## 6. Next.js live (vercel)
+
+<br/>
+
+https://vercel.com/live
+
+Join/Draw/Chat/Code，这里不难理解为什么 vercel 要做 Next.js live，借鉴的是以上几个工具的颠覆思路
+
+<img src="/8.png" style="width:58%">
+
+---
+
+# 技术框架
+
+<img src="/9.png" style="width:50px;display:block; ">
+
+<br/>
+
+https://replicache.dev/
+
+Replicache makes it easy to add realtime collaboration, lag-free UI, and offline support to web apps.
+
+<img src="/10.png" style="width:50%">
+
+---
+
+# 三 体验应用
 
 ---
 
