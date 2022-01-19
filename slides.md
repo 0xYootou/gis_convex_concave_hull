@@ -10,10 +10,10 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-title: Web 体验技术发展前沿（偏产品向）
+title: Web 体验技术发展前沿
 ---
 
-# Web 体验技术发展前沿（偏产品向）
+# Web 体验技术发展前沿
 
 本文内容具有一定局限性，不代表社区真实现状，仅做参考！
 
