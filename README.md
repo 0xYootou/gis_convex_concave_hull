@@ -22,24 +22,17 @@
  <p align="center">部分内容面向非专业用户（偏产品向）。</p>
 
 <p align="center">
-    <h3 align="center">本分享主要内容</h3>
+    <h3 align="center">本分享主要内容及进度</h3>
 </p>
 
 <p align="center">
-    
-
-| 章节           | 进度                               |
-| -------------- | ---------------------------------- |
-| 实时体验       | `█████████████████████████ 99.99%` |
-| 在线协作       | `█████████████████████████ 99.99%` |
-| 快速建站       | `█████████████████████████ 99.99%` |
-| 浏览器计算能力 | `█████████████████████████ 99.99% `    |
-| 浏览器系统能力 | `░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`     |
-| 移动端         | `░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`     |
-| 区块链         | `░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`     |
-
+<img src="https://img.shields.io/badge/实时体验%20%20%20%20%20%20-99.99%25-green?&labelColor=000&style=for-the-badge" /> <img src="https://img.shields.io/badge/在线协作%20%20%20%20%20%20-99.99%25-green?&labelColor=000&style=for-the-badge" /> <img src="https://img.shields.io/badge/快速建站%20%20%20%20%20%20-99.99%25-green?&labelColor=000&style=for-the-badge" /> <img src="https://img.shields.io/badge/浏览器计算能力%20%20%20%20%20%20-99.99%25-green?&labelColor=000&style=for-the-badge" /> 
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/浏览器系统能力%20%20%20%20%20%20-00.00%25-orange?&labelColor=000&style=for-the-badge" /> <img src="https://img.shields.io/badge/移动端%20%20%20%20%20%20-00.00%25-orange?&labelColor=000&style=for-the-badge" /> <img src="https://img.shields.io/badge/区块链%20%20%20%20%20%20-00.00%25-orange?&labelColor=000&style=for-the-badge" />
     
 </p>
+
 <p align="center">
     <h3 align="center">感谢</h3>
 </p>
