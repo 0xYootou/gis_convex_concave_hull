@@ -17,12 +17,10 @@
     <h4 align="center">声明</h3>
 </p>
 
-<p align="center">
-    <p>本分享内容具有一定局限性，不代表社区真实现状，仅做参考！</p>
+<p align="center">本分享内容具有一定局限性，不代表社区真实现状，仅做参考！</p>
 
- <p>部分内容面向非专业用户。</p>
+ <p align="center">部分内容面向非专业用户。</p>
 
-</p>
 <p align="center">
     <h4 align="center">本分享主要内容</h3>
 </p>
