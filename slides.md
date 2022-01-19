@@ -334,9 +334,63 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 ### WebGL
 
-- ***
+- 在我们的地理可视化产品中，一个界面上渲染 几十万个可交互的点不卡顿基本没有问题，所以 WebGL 的性能渲染普通的图形是够用的。
+- 始于 2006 年，2011 年 WebGL 1.0 标准，2017 年发布 2.0 标准。
+- Apple 直到 2020 年才支持 WebGL 2.0。
+- 几乎现在所有的操作系统都不再把 OpenGL 作为首要支持。
+- WebGL 至今不可以做并行计算。
 
-# Learn More
+---
+
+## WebAssembly
+
+- 是一种低级的类汇编语言，具有紧凑的二进制格式，可以接近原生的性能运行，并为诸如 C / C ++等语言提供一个编译目标，以便它们可以在 Web 上运行
+- 所以可以用来做音视频编解码（例如将 FFmpeg 编译到 wasm，然后运行于浏览器中，然而现实情况是需要对 FFmpeg 大量裁剪，并且因为逻辑比较重，效果并不理想）
+- 可以用来做科学计算并行计算（WebAssembly SIMD 是最新的 Wasm 技术，它可以实现数据层面的并行处理）
+- 可以用来做图形处理等（如 figma 大量使用 wasm 处理设计稿的渲染和特效等）
+- 支持诸多语言编译，c/c++、rust、kotlin、swift、c# 等
+
+[Google Meet 中使用 wasm 来实现高效的背景实时替换](https://cloud.tencent.com/developer/article/1745435)
+[Chrome 91 支持 WebAssembly SIMD，加速 Web 在 AI 等领域的应用](https://mp.weixin.qq.com/s/P0opB_IMHoAy7PpJH0t-4A)
+
+## WebCodecs
+
+- 可使用底层硬件加速编解码
+- wasm 实现编解码过程太复杂，使用复杂
+
+[WebCodecs 对音视频进行编码解码](https://juejin.cn/post/6885482349098860558)
+
+---
+
+# WebGPU
+
+此 demo 只能在 Chrome Canary 中开启 WebGPU 后使用
+
+<iframe src="https://playground.babylonjs.com/?webgpu#YX6IB8#36" style="width:100%;height:40vh;"/>
+
+---
+
+# WebGPU
+
+<br/>
+
+- [硬件级] WebGPU 是一个精确的图形 API，它完全开放了整个显卡能力，你要向显卡发送命令去控制显卡，它不再是画东西的一个库，而是一个利用 GPU 的库。
+- [跨平台] WebGPU 就像一个 HAL 硬件抽象层一样，我只要对应这套标准，未来不仅可以在网页运行，甚至也可以在嵌入式、在服务器运行
+- [通用计算] WebCPU 终于开始支持 GPU Compute Shader，并且是把 GPU 通用计算作为首要支持
+- [着色器] 新的着色器语言 WGSL，支持面向对象编程
+- [性能差距] babylonjs 示例，性能差距 6 倍以上。
+
+<br/>
+
+[从 WebGL 到 WebGPU，网页图形的全新时代](https://mp.weixin.qq.com/s/4LfaNHP77s9n9SghucYoaA)
+
+---
+
+# 五 浏览器系统能力
+
+---
+
+# More
 
 欢迎 PR 补充内容
 
