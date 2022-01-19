@@ -3,12 +3,14 @@
 </p>
 
 <p align="center">
-[![Join the community on GitHub Discussions](https://img.shields.io/badge/Join%20the%20Discussion-on%20Github-green?&labelColor=000&style=for-the-badge&logo=github)](https://github.com/yu-tou/frontend-modern-experience-share-slide/discussions)
-
+    <a href="https://github.com/yu-tou/frontend-modern-experience-share-slide/discussions" target="_blank">
+        <img src="https://img.shields.io/badge/Join%20the%20Discussion-on%20Github-green?&labelColor=000&style=for-the-badge&logo=github" />
+    </a>
 </p>
 <p align="center">
-[![](https://img.shields.io/badge/Online%20Slide-on%20Vecel-green?&labelColor=000&style=for-the-badge&logo=vercel)](https://frontend-modern-share.vercel.app)
-
+    <a href="https://frontend-modern-share.vercel.app" target="_blank">
+        <img src="https://img.shields.io/badge/Online%20Slide-on%20Vecel-green?&labelColor=000&style=for-the-badge&logo=vercel" />
+    </a>
 </p>
 
 <p align="center">
