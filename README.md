@@ -8,16 +8,22 @@ write by [Slidev](https://sli.dev/).
 
 # 本分享主要内容
 
-- 实时体验（Realtime experience）
-- 在线协作（Online collaboration）
-- 体验应用快速开发（Jamstack）
-- 浏览器计算能力
-- 浏览器系统能力
-- 移动端
-- 区块链
+| 章节 | 进度 |
+| ---- | ---- |
+
+| 实时体验（Realtime experience） | █████████████████████████ 99.99% |
+| 在线协作（Online collaboration） | █████████████████████████ 99.99% |
+| 体验应用快速开发（Jamstack） | █████████████████████████ 99.99% |
+| 浏览器计算能力 | ███░░░░░░░░░░░░░░░░░░░░░░ 10% |
+| 浏览器系统能力 | ░░░░░░░░░░░░░░░░░░░░░░░░░ 0% |
+| 移动端 | ░░░░░░░░░░░░░░░░░░░░░░░░░ 0% |
+| 区块链 | ░░░░░░░░░░░░░░░░░░░░░░░░░ 0% |
+
+```
 
 还在写，进展 ![](https://img.shields.io/badge/60-100-green?&labelColor=000)
 
 部署后的链接：
 
 https://web-front-end-technology-forward-share-slide.vercel.app
+```
