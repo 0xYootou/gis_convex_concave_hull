@@ -224,10 +224,98 @@ Replicache makes it easy to add realtime collaboration, lag-free UI, and offline
 
 ---
 
-# 三 体验应用
+# 三 体验应用快速开发
+
+## Jamstack
+
+[https://jamstack.wtf/](https://jamstack.wtf/)
+
+#### DEFINITION
+
+"JAM" stood for JavaScript / API / Markup。
+
+可以认为 Jamstack 是一组开发网站的最佳实践，包括目标定义、最佳实践、工作流、实用工具等。一些云产品或者框架，遵循类似的理念实现。
+
+#### MEANING
+
+Decoupled 前后端解耦 / Static-first 静态内容优先 / Progressively enhanced 渐进增强
+
+#### BEST PRACTICES
+
+CDN 网络分发 / 原子化部署 / 缓存自动失效 / 版本管理 / 自动化构建
+
+#### WORKFLOW
+
+Develop / Version Control / Automated build( assets. pre render. deploy.) / Update CDN.
+
+---
+
+# DEVELOPMENT
+
+### The Fullstack React Framework
+
+- 基本、纯粹、场景无关的底层框架。
+- Next.js。可能是使用最广泛的 Fullstack 框架，主要是其 SSR&SSG 能力，0 配置，及 Vercel 的无缝官方支持。
+- Remix.js。知名团队最新出品的框架，主要是更强的前后端代码融合能力（同一个组件文件中），更好的加载体验（组件级别的 SSG）。
+
+### Web Application Framework
+
+- 通常是一系列基础工具的整合，例如 GraphQL、Prisma 等，将数据定义和服务开发等部分 less 掉。
+- Redwood.js。an opinionated, full-stack, serverless-ready web application framework。
+- Blitz.js。a batteries-included framework that features a "Zero-API" data layer abstraction that eliminates the need for REST/GraphQL
+
+### Static Site Generators
+
+- 主要用来建站、博客的一些工具框架，例如管理文章、主题、构建等，通常用来写博客、写文档等。
+- Gatsby / Hugo / Jekyll / VuePress / Docsify / GitBook 等
+
+### Site Builders
+
+- 低代码搭建工具，如 Stackbit / Builder.io / CloudCannon
+
+---
+
+# DYNAMIC PARTS
+
+### 函数服务
+
+- AWS lambda functions / Netlify Functions / Vercel Functions
+
+### 数据管理
+
+- Prisma / AirTable / Fauna / Hasura / MongoDB Atlas / AWS DynamoDB
+
+### 表单工具
+
+- AirTable / Netlify Forms / Getform / FormKeep
+
+### 评论工具
+
+- walinejs / Staticman / Disqus
+
+### 商品交易
+
+- Shopify / Snipcart / Commerce Layer
+
+### 搜索服务
+
+- Algolia / fuse.js / Lunr.js
+
+---
+
+# 简单总结
+
+- 利用一系列工具组合，快速构建和部署自己的网站
+- 在国外是一个很大的市场，在国内基本不存在这些场景，国内同样的场景是给每个小程序平台写小程序，各平台有自己的部署、函数、存储。。
+- 国外社区这种整体架构分解、细分领域发力、灵活重组、生态上互相支持，共赢且推动社区向同一个方向发展的做法值得深思。
+- 每个部分都可以产生百亿美金市值的公司。
+
+---
 
 ---
 
 # Learn More
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+欢迎 PR 补充内容
+
+[GitHub 链接](https://github.com/yu-tou/web-front-end-technology-forward-share-slide)
