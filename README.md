@@ -18,7 +18,6 @@ write by [Slidev](https://sli.dev/).
 | 移动端                           | `░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`     |
 | 区块链                           | `░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`     |
 
-
 部署后的链接：
 
-https://web-front-end-technology-forward-share-slide.vercel.app
+https://frontend-modern-share.vercel.app
