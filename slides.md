@@ -318,7 +318,8 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 - 多线程（上一代）
 - WebGL（上一代）
-- Wasm
+- WebAssembly
+- WebCodecs
 - WebGPU
 
 ---
@@ -334,8 +335,6 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 ### WebGL
 
 - ***
-
----
 
 # Learn More
 
