@@ -10,10 +10,10 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-title: Web 前端技术发展前沿（偏产品向）
+title: Web 体验技术发展前沿（偏产品向）
 ---
 
-# Web 前端技术发展前沿（偏产品向）
+# Web 体验技术发展前沿（偏产品向）
 
 本文内容具有一定局限性，不代表社区真实现状，仅做参考！
 
@@ -45,7 +45,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 在线协作（Online collaboration）
 - Web 3D 技术
 - 浏览器系统能力
-- 高性能应用快速开发
+- 体验应用快速开发
 - 移动端
 - 区块链
 
