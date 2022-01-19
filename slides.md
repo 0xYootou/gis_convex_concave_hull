@@ -43,7 +43,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - 实时体验（Realtime experience）
 - 在线协作（Online collaboration）
-- 体验应用快速开发（Jamstack）
+- 快速建站（Jamstack）
 - 浏览器计算能力
 - 浏览器系统能力
 - 移动端
@@ -224,27 +224,29 @@ Replicache makes it easy to add realtime collaboration, lag-free UI, and offline
 
 ---
 
-# 三 体验应用快速开发
+# 三 快速建站
 
-## Jamstack
+---
+
+# Jamstack
 
 [https://jamstack.wtf/](https://jamstack.wtf/)
 
-#### DEFINITION
+### DEFINITION
 
 "JAM" stood for JavaScript / API / Markup。
 
 可以认为 Jamstack 是一组开发网站的最佳实践，包括目标定义、最佳实践、工作流、实用工具等。一些云产品或者框架，遵循类似的理念实现。
 
-#### MEANING
+### MEANING
 
 Decoupled 前后端解耦 / Static-first 静态内容优先 / Progressively enhanced 渐进增强
 
-#### BEST PRACTICES
+### BEST PRACTICES
 
 CDN 网络分发 / 原子化部署 / 缓存自动失效 / 版本管理 / 自动化构建
 
-#### WORKFLOW
+### WORKFLOW
 
 Develop / Version Control / Automated build( assets. pre render. deploy.) / Update CDN.
 
@@ -321,9 +323,17 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 ---
 
-# WebGPU
+# 上一代技术
 
----
+### Web Workers
+
+- 不阻塞主线程的计算进程，不可操作 UI
+- 工程化困难，使用比较别扭，和其他 Native 语言操作多线程的体验差距比较大
+- 初始化和传输数据开销比较大，非必要不要用，可能会让应用变得更慢
+
+### WebGL
+
+- ***
 
 # Learn More
 
