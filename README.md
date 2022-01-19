@@ -3,13 +3,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/yu-tou/frontend-modern-experience-share-slide/discussions" target="_blank">
-        <img src="https://img.shields.io/badge/Join%20the%20Discussion-on%20Github-green?&labelColor=000&style=for-the-badge&logo=github" />
-    </a>
-</p>
-<p align="center">
     <a href="https://frontend-modern-share.vercel.app" target="_blank">
         <img src="https://img.shields.io/badge/Online%20Slide-on%20Vecel-green?&labelColor=000&style=for-the-badge&logo=vercel" />
+    </a>
+    <a href="https://github.com/yu-tou/frontend-modern-experience-share-slide/discussions" target="_blank">
+        <img src="https://img.shields.io/badge/Join%20the%20Discussion-on%20Github-green?&labelColor=000&style=for-the-badge&logo=github" />
     </a>
 </p>
 
