@@ -305,12 +305,23 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 ---
 
+# DEPLOY
+
+- Netlify，2020 年 5300 万 C 轮
+- Vercel，2021 年 1.5 亿美金 D 轮，估值 25 亿美金
+- Github Pages
+- Fly.io
+- Digital Ocean
+- Azure Static Web Apps
+
+---
+
 # 简单总结
 
-- 利用一系列工具组合，快速构建和部署自己的网站
+- 利用一系列工具组合，快速构建和部署自己的网站。
 - 在国外是一个很大的市场，在国内基本不存在这些场景，国内同样的场景是给每个小程序平台写小程序，各平台有自己的部署、函数、存储。。
 - 国外社区这种整体架构分解、细分领域发力、灵活重组、生态上互相支持，共赢且推动社区向同一个方向发展的做法值得深思。
-- 每个部分都可以产生百亿美金市值的公司。
+- 很多公司和产品以 Jamstack 为核心理念推动和宣导。
 
 ---
 
