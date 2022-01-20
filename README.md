@@ -25,9 +25,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/实时体验%20%20%20%20%20%20-99.99%25-green?&labelColor=000" /> <img src="https://img.shields.io/badge/在线协作%20%20%20%20%20%20-99.99%25-green?&labelColor=000" /> <img src="https://img.shields.io/badge/快速建站%20%20%20%20%20%20-99.99%25-green?&labelColor=000" /> <img src="https://img.shields.io/badge/浏览器计算能力%20%20%20%20%20%20-99.99%25-green?&labelColor=000" /> 
-</p>
-<p align="center">
-<img src="https://img.shields.io/badge/浏览器系统能力%20%20%20%20%20%20-80.00%25-orange?&labelColor=000" /> <img src="https://img.shields.io/badge/移动端%20%20%20%20%20%20-00.00%25-orange?&labelColor=000" /> <img src="https://img.shields.io/badge/区块链%20%20%20%20%20%20-00.00%25-orange?&labelColor=000" />
+<img src="https://img.shields.io/badge/浏览器系统能力%20%20%20%20%20%20-100.00%25-green?&labelColor=000" /> <img src="https://img.shields.io/badge/移动端%20%20%20%20%20%20-100.00%25-green?&labelColor=000" /> <img src="https://img.shields.io/badge/区块链%20%20%20%20%20%20-100.00%25-green?&labelColor=000" />
     
 </p>
 
