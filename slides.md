@@ -401,6 +401,30 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 ---
 
+# 浏览器系统能力
+
+- 音视频。MediaStream(音视频流) / Media Source Extensions（程序媒体流输入）/ MediaStream Recording(流捕获) / MediaStream Image Capture / Capabilities（编解码探测）/ Web Audio API（音频处理、分析、效果等） / Web Speech API（语音识别和合成） / MIDI API（音乐合成）/ WebCodecs （音视频编解码）/ WebVTT（字幕）
+- 桌面。Screen Capture（屏幕捕捉）/ Picture-in-Picture（画中画） / EyeDropper(拾色) / Notifications / Page Visibility / Screen Wake Lock （阻止休眠） / VisualViewport（可见窗口探测）/ Window Controls Overlay（控制标题栏）
+- 存储。File System Access API / IndexedDB（大数据存储） /
+- 网络。Streams API（按位读取写入）/ WebRTC API（点对点通信）
+- 外设。 WebAR / WebXR / GamePad / Battery Status API / Bluetooth API / Presentation API（演示屏幕控制）/
+- 传感器。Sensor（三轴传感器）/ Geolocation （位置） / Screen Orientation （屏幕旋转） / Vibration（震动传感器）
+- 脱机。Service Worker API(离线) / Background Fetch API（页面关闭后仍可请求数据） / Background Synchronization（背景同步资源） /
+- 虚拟设备。Payment Request API（信用卡支付）/ Clipboard API / Pointer Lock（鼠标锁定）
+- 内容。Encoding API / Intersection Observer API(内容探测) /
+- 性能探测。Performance API（延时探测） / Navigation Timing（页面跳转性能探测） / Long Tasks API（高损耗探测）/ Resource Timing（资源加载探测）
+
+---
+
+# 注意点
+
+<br/>
+
+- 部分功能需要 https 环境，特别是涉及到隐私和安全的。
+- 部分功能需要用户确认，通过 permissions api 管理。
+
+---
+
 # More
 
 欢迎 PR 补充内容
