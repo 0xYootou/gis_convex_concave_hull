@@ -422,6 +422,34 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 - 部分功能需要 https 环境，特别是涉及到隐私和安全的。
 - 部分功能需要用户确认，通过 permissions api 管理。
+- 以上提到的大部分功能都在 90 之前版本可用，极少数是最新的规范
+
+---
+
+# Google Meeting
+
+<video src="/11.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+---
+
+# 五 移动端
+
+## flutter
+
+- [flutter 2.8 更新](https://medium.com/flutter/announcing-flutter-2-8-31d2cb7e19f5)
+- 支持 Mobile / Web / Desktop（windows/linux/mac） / Embedded App
+- 开始集成越来越多 Google 自己的服务（和浏览器一个套路）
+- 发布 flame 游戏框架
+
+## iOS
+
+- Xcode Cloud，持续集成，在线构建和分发
+- iPad Swift Playground 可以直接编译成 app
+- Live Text / SharePlay / RealityKit / ARKit /
+
+---
+
+# 六 区块链
 
 ---
 
