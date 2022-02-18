@@ -82,7 +82,7 @@ title: GIS 计算中的凸包、凹包、内凸包等问题求解
 
 演算视频：
 
-<video src="/convex-hull/10.mp4" style="height:70%; border-width:3px; border-color:#666;border-style:solid;" controls autoplay muted />
+<video src="/convex-hull/10.mp4" style="width:40%; border-width:3px; border-color:#666;border-style:solid;" controls autoplay muted />
 
 ---
 
@@ -102,13 +102,13 @@ title: GIS 计算中的凸包、凹包、内凸包等问题求解
 ---
 
 <p>
-<img src="/convex-hull/11.png" style="height:70%;border-width:3px; border-color:#666;border-style:solid;"/>
+<img src="/convex-hull/11.png" style="width:50%;border-width:3px; border-color:#666;border-style:solid;"/>
 </p>
 
 ---
 
 <p>
-<img src="/convex-hull/12.png" style="width:50%;border-width:3px; border-color:#666;border-style:solid;"/>
+<img src="/convex-hull/12.png" style="width:30%;border-width:3px; border-color:#666;border-style:solid;"/>
 </p>
 
 ---
