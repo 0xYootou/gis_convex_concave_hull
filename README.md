@@ -3,6 +3,16 @@
 </p>
 
 <p align="center">
+    <a href="https://gis-convex-concave-hull-2qo7hg7w8-yu-tou.vercel.app/1">在线 Slide 地址</a>
+</p>
+<p align="center">  
+    <a href="https://gis-convex-concave-hull-2qo7hg7w8-yu-tou.vercel.app/1" target="_blank">
+        <img src="https://img.shields.io/badge/Online%20Slide-on%20Vecel-green?&labelColor=000&style=for-the-badge&logo=vercel" />
+    </a>
+    
+</p>
+
+<p align="center">
     <h3 align="center">感谢</h3>
 </p>
 
